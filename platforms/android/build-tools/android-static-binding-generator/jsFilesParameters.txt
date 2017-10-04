@@ -219,3 +219,5 @@
 /home/jorgenakassima/Documentos/nativo/Groceries/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/color/color.js
 /home/jorgenakassima/Documentos/nativo/Groceries/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/color/color-common.js
 /home/jorgenakassima/Documentos/nativo/Groceries/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/color/known-colors.js
+/home/jorgenakassima/Documentos/nativo/Groceries/platforms/android/src/main/assets/app/tns_modules/nativescript-camera/nativescript-camera.js
+/home/jorgenakassima/Documentos/nativo/Groceries/platforms/android/src/main/assets/app/tns_modules/nativescript-camera/nativescript-camera-common.js

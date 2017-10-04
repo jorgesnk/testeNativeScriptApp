@@ -1,9 +1,8 @@
-<StackLayout sdkExampleTitle sdkToggleNavButton>
-    <GridLayout rows="80" columns="*, *" *ngIf="log" >
-        <Button text="First" [nsRouterLink]="['list']" class="btn btn-primary btn-active" col="0"></Button>
-    </GridLayout>
 
-    <Button text="entrar" [nsRouterLink]="['login']" (tap)="btn()" class="btn btn-primary btn-active" col="1"></Button>
-    
-    <router-outlet></router-outlet>
+<!-- <ActionBar title="Custom Title"  ></ActionBar> -->
+<StackLayout sdkExampleTitle sdkToggleNavButton>
+    <SegmentedBar [items]="items"  (selectedIndexChange)="onSelectedIndexChange($event)" ></SegmentedBar>
+        <router-outlet></router-outlet>
 </StackLayout>
+
+

@@ -1,1 +1,9 @@
 <Label text='teste'></Label>
+
+<StackLayout class="input-field">
+    
+    <Label class="label" text="{{valor}}" row="1" col="0" textWrap="true"></Label>
+    <TextField class="input input-border"  [(ngModel)]='valor' text="{{valor}}" row="1" col="1"></TextField>    
+</StackLayout>
+
+<Button class="btn btn-primary btn-active" id="button" text="Tap me!" (tap)="onTap()"></Button>

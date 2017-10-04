@@ -1,1 +1,6 @@
-<Label text='login'></Label>
+<Label text='{{exibe}}'></Label>
+
+
+<Button class="btn btn-primary btn-active" id="button" text="Tap me!" (tap)="take()"></Button>
+
+<img *ngIf='foto'  src="{{foto}}" />
